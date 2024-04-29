@@ -29,7 +29,8 @@ function Header() {
           </ul>
         </nav>
 
-        <button className="mode">mode</button>
+        <button className="mode icon-lamp">
+        </button>
 
         {menuPopUp && (
           <div className="menu-popup">
@@ -39,9 +40,8 @@ function Header() {
                   onClick={() => {
                     setMenuPopUp(false);
                   }}
-                  className="close-popup"
+                  className="icon-x1"
                 >
-                  X
                 </button>
               </li>
               <li>
@@ -67,10 +67,8 @@ function Header() {
         onClick={() => {
           setMenuPopUp(true);
         }}
-        className="menu-icon"
-      >
-        M
-      </button>
+        className="icon-th-menu "
+      ></button>
     </Fragment>
   );
 }

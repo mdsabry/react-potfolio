@@ -1,3 +1,6 @@
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+import "../node_modules/bootstrap/dist/js/bootstrap.js"
+
 import Header from "./Components/1- header/Header";
 import MainContent from "./Components/3- main/main";
 import Hero from "./Components/2- hero/Hero";

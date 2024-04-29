@@ -55,6 +55,10 @@ body {
   margin: 3rem 0;
 }
 
+button {
+  all: unset;
+  cursor: pointer;
+}
 
 
 
